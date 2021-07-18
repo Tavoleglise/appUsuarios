@@ -4,7 +4,7 @@
   "description": "A little app to try requests to an API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "request": "node src/js/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tavoleglise/appUsuarios/issues"
   },
-  "homepage": "https://github.com/Tavoleglise/appUsuarios#readme"
+  "homepage": "https://github.com/Tavoleglise/appUsuarios#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
